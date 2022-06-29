@@ -1,0 +1,36 @@
+.select .option {
+    box-sizing: border-box;
+
+    cursor: pointer;
+    display: flex;
+    padding: 8px 10px;
+}
+
+.select .option img {
+    margin-top: 20px;
+}
+
+.select .option p {
+    margin-left: 20px;
+}
+
+
+.select .option.light.added {
+    background-color: #F2F9FC;
+}
+
+.select .option.light:hover {
+    background-color: #F2F4FC;
+
+
+}
+
+.select .option.dark.added {
+    background-color: #414141;
+}
+
+.select .option.dark:hover {
+    background-color: #5f5f5f;
+
+
+}
